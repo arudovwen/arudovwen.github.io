@@ -478,7 +478,7 @@ a{
     justify-content: center;
     align-items: center;
     padding: 5px;
-    border: 3px solid white;;
+    border: 1px solid white;;
 }
 
 
@@ -491,6 +491,9 @@ a{
 .project_box:hover img{
     transform: scale(1.04);
     cursor: pointer;
+}
+.ilc{
+    width:80% !important;
 }
 .overlay{
     display: none;
@@ -708,7 +711,7 @@ p,ul,li{
     }
     .about {
         font-size: 14.5px;
-        width: 75%;
+        width: 85%;
     }
 
     .years {
@@ -784,7 +787,7 @@ p,ul,li{
         font-size: 14px;
     }
     .down_box {
-        padding: 30px 0 0 20px;
+        padding: 30px 0 0 15px;
         grid-row-gap: 20px;
     }
     .project_title{
@@ -807,14 +810,14 @@ p,ul,li{
     }
     .bottom_box,
     .bottom_top_box {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
     }
     .page_2 .top_box{
         height: 80px;
     }
     p{
-        font-size: 12.5px;
+        font-size: 14px;
     }
     .project_about
     {
@@ -842,5 +845,10 @@ p,ul,li{
     }
     .title p{
         font-size: 24px !important;
+    }
+    .bottom_box,
+    .bottom_top_box {
+        width: 50px;
+        height: 50px;
     }
 }
