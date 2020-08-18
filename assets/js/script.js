@@ -5,6 +5,29 @@ var image = document.getElementsByClassName("mini_image");
 var close =document.getElementById("close");
 var main = document.getElementById('main')
 
+
+
+
+
+
+
+var i = 0;
+var txt = 'SUCCESS AHON - A highly motivated full stack developer, Familiar with development and deployment process for many web-based technologies.'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+   
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+
+}
+setTimeout(()=>{
+    document.getElementById("demo").innerHTML = ''
+    typeWriter()
+},4000)
 Array.from(image).forEach((element) => {
   element.addEventListener("click", (el) => {
     siteimage.src = el.srcElement.src;
@@ -21,7 +44,7 @@ Array.from(image).forEach((element) => {
         imagename.href = 'https://arudovwen.github.io'
     }
     if (el.srcElement.alt == "IMS website") {
-        imagename.href = 'https://ims-ministry.herokuapp.com'
+        imagename.href = 'https://ministryofeducation.im.gov.ng'
     }
     if (el.srcElement.alt == "ilc") {
         imagename.href = 'https://isl-center.herokuapp.com'
