@@ -64,6 +64,7 @@ body {
     font-family: 'Nanum Gothic Coding', monospace;
 
 }
+
 .text-center{
     text-align: center;
 }
@@ -216,6 +217,7 @@ nav a {
     height: 100%;
     padding-top: 100px;
     padding-bottom: 75px;
+    
 }
 
 .about:hover .myimage {
