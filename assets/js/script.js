@@ -10,6 +10,7 @@ var project_contribution = document.getElementsByClassName("project-contribution
 var opening_text = document.getElementById('opening-text')
 var first = document.getElementById('first')
 var second = document.getElementById('second')
+var loader = document.getElementById('loader')
 var demo_src = document.getElementsByClassName("demo-src");
 var slideIndex = 0;
 
@@ -19,20 +20,32 @@ var isl = './assets/images/projects/project6.jpg';
 var bizzy = './assets/images/projects/project4.jpg';
 var mini = './assets/images/projects/project8.jpg';
 
+document.getElementById('year').innerHTML = new Date().getFullYear()
+window.addEventListener('load',()=>{
+ loader.classList.add('animated','slideOutUp')
+
+})
+
+
 for (let i = 0; i < words.length; i++) {
   words[i].style.display = "none";
   words[slideIndex].style.display = "block";
 }
 
 rightarrow.addEventListener("click", () => {
-  if (slideIndex < words.length - 1) {
+  if (slideIndex < words.length-1 ) {
+   
     slideIndex++;
+  
     words[slideIndex - 1].style.display = "none";
     words[slideIndex].style.display = "block";
   } else {
     slideIndex = 0;
+    words[words.length - 1].style.display = "none";
     words[0].style.display = "block";
   }
+  
+  
 });
 
 leftarrow.addEventListener("click", () => {
@@ -40,6 +53,7 @@ leftarrow.addEventListener("click", () => {
     slideIndex--;
   
     words[slideIndex].style.display = "block";
+    words[slideIndex+ 1].style.display = "none";
   }
 });
 
