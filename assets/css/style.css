@@ -763,7 +763,7 @@ a {
     top: 25%;
     left: 20%;
     transform: translate(-50%, -50%);
-    opacity: .1;
+    opacity: .05;
 }
 
 .quote-left {
@@ -772,7 +772,7 @@ a {
     top: 75%;
     right: 10%;
     transform: translate(-50%, -50%);
-    opacity: .1;
+    opacity: .05;
 }
 
 /* Fading animation */
@@ -985,7 +985,7 @@ small {
 
     .about h2 {
         font-size: 2rem;
-        right: -75%;
+        right: -50%;
     }
 
     .works {
@@ -1029,7 +1029,7 @@ small {
     }
 
     .contact h2 {
-        font-size: 2.3rem;
+        font-size: 2rem;
         word-spacing: normal;
     }
 
@@ -1173,17 +1173,24 @@ small {
 
 @media (max-width:375px) {
     .name h2 {
-        font-size: 2.1rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
-
+   .about{
+       padding-top:30px
+   }
+   .about h2{
+       font-size: 1.6rem;
+       right:-50%;
+   }
     .name h6 {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .arrow-down {
         width: 25px;
         height: 25px;
+        margin-left: -13.5px;
     }
 
     .arrow-down img {
@@ -1191,8 +1198,20 @@ small {
     }
 
     .bottom-nav {
-        right: -5px;
+        right: -15px;
+        bottom: 10px;
 
+    }
+    .socials ul li {
+        font-size: 15px;
+       
+    }
+    .icon{
+        width:15px;
+        font-size: 15px;
+    }
+    .contact h2{
+        font-size:1.5rem;
     }
 
 }
