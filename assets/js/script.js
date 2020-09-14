@@ -22,22 +22,22 @@ var mini = './assets/images/projects/project8.jpg';
 
 document.getElementById('year').innerHTML = new Date().getFullYear()
 
-document.getElementById('myword').addEventListener('touchmove',()=>{
-  if (slideIndex < words.length-1 ) {
+// document.getElementById('myword').addEventListener('touchmove',()=>{
+//   if (slideIndex < words.length-1 ) {
    
-    slideIndex++;
+//     slideIndex++;
   
-    words[slideIndex - 1].style.display = "none";
-    words[slideIndex].style.display = "block";
-  } else {
-    slideIndex = 0;
-    words[words.length - 1].style.display = "none";
-    words[0].style.display = "block";
-  }
+//     words[slideIndex - 1].style.display = "none";
+//     words[slideIndex].style.display = "block";
+//   } else {
+//     slideIndex = 0;
+//     words[words.length - 1].style.display = "none";
+//     words[0].style.display = "block";
+//   }
   
-})
+// })
 window.addEventListener('load',()=>{
- loader.classList.add('animated','slideOutUp')
+//  loader.classList.add('animated','slideOutUp')
 
 })
 

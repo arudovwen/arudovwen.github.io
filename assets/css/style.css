@@ -1122,11 +1122,11 @@ small {
     
     .circle {
         position: absolute;
-        top: -15px;
+        top: -20px;
         margin-left: -48px;
         height: 30px;
         width: 30px;
-        left: 0;
+        left: 20px;
         background: #bdbdbd;
         border-radius: 15%;
         -webkit-animation: move 5s infinite;
@@ -1141,13 +1141,13 @@ small {
         color: #191b1d;
         font-family: helvetica, sans-serif;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 9px;
     }
     
     
     @-webkit-keyframes move {
         0% {
-            left: 0;
+            left: 20px;
         }
     
         50% {
