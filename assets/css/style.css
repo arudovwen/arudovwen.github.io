@@ -307,7 +307,6 @@ nav a {
 
 .about {
     height: 100%;
-    padding-top: 100px;
     padding-bottom: 75px;
 
 }
@@ -479,7 +478,7 @@ nav a {
 
 #about {
     background: #bdbdbd;
-    height: 100%;
+    height: 90vh;
 
 }
 
@@ -977,6 +976,7 @@ small {
         width: 100%;
         font-size: 16px;
         text-align: center;
+        padding-top: 30px;
     }
 
     .myimage {
@@ -1049,7 +1049,7 @@ small {
     }
 
     .about h2 {
-        right: -70%;
+        right: -50%;
         top: -3%;
     }
 
@@ -1182,6 +1182,9 @@ small {
    .about h2{
        font-size: 1.6rem;
        right:-50%;
+   }
+   .about-text{
+       font-size: 15px;
    }
     .name h6 {
         font-size: .9rem;
