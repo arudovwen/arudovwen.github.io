@@ -37,7 +37,7 @@ document.getElementById('year').innerHTML = new Date().getFullYear()
   
 // })
 window.addEventListener('load',()=>{
-//  loader.classList.add('animated','slideOutUp')
+ loader.classList.add('animated','slideOutUp')
 
 })
 
