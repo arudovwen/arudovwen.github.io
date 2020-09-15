@@ -298,7 +298,7 @@ nav a:hover {
     text-shadow: 2px 2px 5px white
 }
 
-.name h6 {
+.name h4 {
     font-size: 2rem;
     font-weight: normal;
 }
@@ -958,7 +958,7 @@ small {
         font-size: 2.5rem;
     }
 
-    .name h6 {
+    .name h4 {
         font-size: 1.1rem;
     }
 
@@ -1204,7 +1204,7 @@ small {
         font-size: 15px;
     }
 
-    .name h6 {
+    .name h4 {
         font-size: .9rem;
     }
 
