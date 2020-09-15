@@ -97,7 +97,7 @@ body {
     background: #bdbdbd;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .circle {
@@ -110,10 +110,10 @@ body {
     background: #bdbdbd;
     border-radius: 30%;
     -webkit-animation: move 5s infinite;
-    
+
 }
 
-.loading{
+.loading {
     position: absolute;
     top: -15px;
     right: -95px;
@@ -134,7 +134,7 @@ body {
         -webkit-transform: rotate(450deg);
         width: 150px;
         height: 150px;
-       
+
     }
 
     75% {
@@ -275,9 +275,11 @@ nav a {
     display: block;
     margin-bottom: .5rem;
 }
-nav a:hover{
+
+nav a:hover {
     text-shadow: 2px 2px 5px white
 }
+
 .bottom-nav {
     font-size: 15px;
     font-weight: bold;
@@ -291,9 +293,11 @@ nav a:hover{
     font-size: 5.5rem;
     margin-bottom: 1rem;
 }
-.name h2:hover{
-  text-shadow: 2px 2px 5px white
+
+.name h2:hover {
+    text-shadow: 2px 2px 5px white
 }
+
 .name h6 {
     font-size: 2rem;
     font-weight: normal;
@@ -752,7 +756,7 @@ a {
 
 .words div {
     width: 100%;
-   
+
 }
 
 .words div p {
@@ -1069,61 +1073,67 @@ small {
     .quote-left {
         right: -21%;
     }
+
     .proj {
-       
+
         top: 0;
         width: 100%;
         padding: 15px 0px;
         background: #fff;
     }
-    
+
     .proj-menu {
         width: 90%;
-       
+
         font-size: 15px;
     }
-    
+
     #project-background {
-       
+
         height: 50vh;
     }
-    
+
     #project-background2 {
-       
+
         height: 50vh;
     }
-    
+
     #project-background1 {
-       
+
         height: 50vh;
     }
-    
+
     #project-background3 {
-       
+
         height: 50vh;
     }
+
     #project-overview {
-       
+
         grid-template-columns: 1fr;
-       
+
     }
+
     .demo {
-       display: none;
+        display: none;
     }
-    #project-overview{
+
+    #project-overview {
         padding-bottom: 20px;
     }
+
     #project-demo {
         padding: 20px 0;
-       
+
     }
+
     .bar {
         position: absolute;
         height: 2px;
         width: 250px;
-     
+
     }
-    
+
     .circle {
         position: absolute;
         top: -20px;
@@ -1134,10 +1144,10 @@ small {
         background: #bdbdbd;
         border-radius: 15%;
         -webkit-animation: move 5s infinite;
-        
+
     }
-    
-    .loading{
+
+    .loading {
         position: absolute;
         top: -15px;
         right: -20px;
@@ -1147,28 +1157,28 @@ small {
         font-weight: bold;
         font-size: 9px;
     }
-    
-    
+
+
     @-webkit-keyframes move {
         0% {
             left: 20px;
         }
-    
+
         50% {
             left: 100%;
             -webkit-transform: rotate(450deg);
             width: 75px;
             height: 75px;
-           
+
         }
-    
+
         75% {
             left: 100%;
             -webkit-transform: rotate(450deg);
             width: 75px;
             height: 75px;
         }
-    
+
         100% {
             right: 100%;
         }
@@ -1180,16 +1190,20 @@ small {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
-   .about{
-       padding-top:30px
-   }
-   .about h2{
-       font-size: 1.6rem;
-       right:-50%;
-   }
-   .about-text{
-       font-size: 15px;
-   }
+
+    .about {
+        padding-top: 30px
+    }
+
+    .about h2 {
+        font-size: 1.6rem;
+        right: -50%;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
     .name h6 {
         font-size: .9rem;
     }
@@ -1209,16 +1223,19 @@ small {
         bottom: 10px;
 
     }
+
     .socials ul li {
         font-size: 15px;
-       
+
     }
-    .icon{
-        width:15px;
+
+    .icon {
+        width: 15px;
         font-size: 15px;
     }
-    .contact h2{
-        font-size:1.5rem;
+
+    .contact h2 {
+        font-size: 1.5rem;
     }
 
 }
