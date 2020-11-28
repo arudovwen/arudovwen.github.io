@@ -64,6 +64,9 @@ body {
     font-family: 'Nanum Gothic Coding', monospace;
 
 }
+#main{
+    overflow: hidden;
+}
 
 .no-js #loader {
     display: none;
@@ -505,28 +508,27 @@ nav a:hover {
 }
 
 #project {
-
+    padding: 40px 20px;
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100% ;
     overflow: hidden;
     background: radial-gradient(circle 1600px at 100%, at 0, #252525 0, #080808 100%);
     background: radial-gradient(circle 1600px at 100% 0, #252525 0, #080808 100%);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  
 }
 
 .projects {
     position: relative;
-    max-width: 90%;
-    width: 90%;
-    align-items: center;
-    display: -webkit-inline-box;
-    overflow-x: auto;
-    white-space: nowrap;
+  
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 50px;
     cursor: grabbing;
     padding: 15px;
+    margin: 0 auto;
 
 
 }
@@ -551,7 +553,6 @@ nav a:hover {
     background: radial-gradient(circle 600px at 100% 0, #212121, #121212);
     border-radius: 16px;
     box-shadow: 0 12px 24px -8px rgba(0, 0, 0, .8);
-    height: 100%;
     transition: box-shadow .3s ease, transform .2s ease;
     transition: translateY(0);
     margin-right: 32px;
@@ -560,7 +561,7 @@ nav a:hover {
 
 .projects .project div {
     height: auto;
-    width: 600px;
+    width: 100%;
     background: #fff;
     margin-bottom: 1.2rem;
 
@@ -598,14 +599,10 @@ nav a:hover {
 
 .works {
     width: 100%;
-    position: absolute;
     font-size: 3rem;
     color: #bdbdbd;
-    left: 50%;
-    top: 5%;
-    z-index: 7;
-    transform: translateX(-50%);
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .text-proj {}
@@ -883,7 +880,24 @@ footer {
     background-position: top;
     height: 80vh;
 }
-
+#tutor-background {
+    background-image: url('/assets/images/projects/tutor.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 80vh;
+}
+#commute-background {
+    background-image: url('/assets/images/projects/commute.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 80vh;
+}
+#lfa-background {
+    background-image: url('/assets/images/projects/lfamark.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 80vh;
+}
 .project-logo {
     border-radius: 50rem;
 }
@@ -996,10 +1010,45 @@ small {
         right: -50%;
     }
 
-    .works {
-        font-size: 2.3rem;
+    #project {
+
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+        min-height: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .projects {
+        position: relative;
+        max-width: 90%;
+        width: 90%;
+        align-items: center;
+        display: -webkit-inline-box;
+        overflow-x: auto;
+        white-space: nowrap;
+        cursor: grabbing;
+        padding: 15px;
+    
+    
     }
 
+.works {
+    width: 100%;
+    position: absolute;
+    font-size: 2.3rem;
+    color: #bdbdbd;
+    left: 50%;
+    top: 5%;
+    z-index: 7;
+    transform: translateX(-50%);
+    text-align: center;
+}
+    
+ 
     .projects .project div {
 
         width: 270px;
@@ -1007,9 +1056,6 @@ small {
         margin-bottom: 1.2rem;
     }
 
-    #project {
-        height: 70vh;
-    }
 
     .projects .project h5 {
         font-size: .8rem;
@@ -1107,7 +1153,15 @@ small {
 
         height: 50vh;
     }
-
+    #tutor-background {
+        height: 50vh;
+    }
+    #commute-background {
+        height: 50vh;
+    }
+    #lfa-background {
+        height: 50vh;
+    }
     #project-overview {
 
         grid-template-columns: 1fr;
