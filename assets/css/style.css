@@ -898,6 +898,12 @@ footer {
     background-position: top;
     height: 80vh;
 }
+#charis-background {
+    background-image: url('/assets/images/projects/char.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 80vh;
+}
 .project-logo {
     border-radius: 50rem;
 }
@@ -1160,6 +1166,9 @@ small {
         height: 50vh;
     }
     #lfa-background {
+        height: 50vh;
+    }
+    #charis-background {
         height: 50vh;
     }
     #project-overview {
