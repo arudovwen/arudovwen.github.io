@@ -25,19 +25,20 @@
         );
         document.head.appendChild(style);
         const script = document.createElement("script");
-        const monnifyScript = document.createElement("script");
         script.setAttribute(
           "src",
           "https://res.cloudinary.com/geergregrgege/raw/upload/v1729204832/widget.js"
         );
+        script.type = "module";
 
-        monnifyScript.setAttribute(
-          "src",
-          "https://sdk.monnify.com/plugin/monnify.js"
-        );
+        // const monnifyScript = document.createElement("script");
+        // monnifyScript.setAttribute(
+        //   "src",
+        //   "https://sdk.monnify.com/plugin/monnify.js"
+        // );
 
         document.head.appendChild(script);
-        document.head.appendChild(monnifyScript);
+        // document.head.appendChild(monnifyScript);
       });
     </script>
   </body>
